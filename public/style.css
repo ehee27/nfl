@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 0;
+}
+
+button {
+  background-image: linear-gradient(rgb(194, 194, 194), rgb(118, 118, 118));
+  border: none;
+  color: white;
+  border-radius: .3rem;
+  height: 30px;
+  width: 100px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgb(88, 88, 88), rgb(0, 0, 0));
+  color: white;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+nav div {
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  border: 2pt solid rgb(206, 62, 0);
+  border-radius: .3rem;
+}
+
+nav div:hover {
+  border: 2pt solid rgb(255, 106, 0);
+  border-radius: .3rem;
+}
+
+nav div a {
+  color: white;
+  text-decoration: none;
+}
+
+#home-content {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+  border: 2pt solid rgb(220, 220, 220);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1pt solid rgb(154, 154, 154);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+#teams {
+  border: 2pt solid red;
+  padding: 3px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60%;
+}
+
+#team-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2pt solid gold;
+  padding: 10px;
+}
+
+#content2 {
+  border: 2pt solid rgb(228, 228, 228);
+}
